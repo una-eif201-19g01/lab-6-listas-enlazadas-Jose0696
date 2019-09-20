@@ -4,7 +4,7 @@
 
 #ifndef LAB_6_LISTAS_ENLAZADAS_NODO_H
 #define LAB_6_LISTAS_ENLAZADAS_NODO_H
-
+#include "Libro.h"
 
 class Nodo {
 

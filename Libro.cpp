@@ -3,3 +3,19 @@
 //
 
 #include "Libro.h"
+
+Libro::Libro(){
+	titulo = " ";
+	anio = 0;
+	autor = " ";
+}
+
+Libro::Libro(string tit, int anno, string au) {
+	titulo = tit;
+	anio = anno;
+	autor = au;
+}
+
+Libro::~Libro()
+{
+}
