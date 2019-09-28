@@ -15,20 +15,23 @@ private:
 	string titulo;
 	int anio;
 	string autor;
+	string nombre;
 
 public:
 	Libro();
-	Libro(string,int,string);
+	Libro(string,int,string,string);
 
-	virtual ~Libro();
+	~Libro();
 
 	void setTitulo(string);
 	void setAnio(int);
 	void setAutor(string);
+	void setNombre(string);
 
 	string getTitulo();
 	int getAnio();
-	float getAutor();
+	string getAutor();
+	string getNombre();
 
 	string toString();
 
